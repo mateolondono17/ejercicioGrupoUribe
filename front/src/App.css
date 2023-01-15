@@ -1,0 +1,52 @@
+body{
+  background: linear-gradient(45deg,  #59433E, #D9B0A7, #8C726C, #F2F2F2, #D9D9D9);
+  background-size: 300% 300%;
+  position: relative;
+  animation: animar 7s ease infinite;
+}
+@keyframes animar {
+  0%{background-position: 0 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0 50%;}
+}
+
+h2{
+  color: #59433E;
+}
+
+.icono{
+  margin: 90px;
+}
+
+.h2{
+  text-shadow:#C4F2CF 2px 2px 2px ;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.titulos{
+ box-shadow: #8583C2 1px 1px 1px 1px 1px;
+}
+
+input::placeholder{
+  color: #59433E !important;
+  text-align: center;
+}
+
+
+
+.botones{
+  color: white !important;
+  border: 1px solid #59433E !important;
+}
+
+
+button:hover{
+  background-color: #59433E !important;
+}
+
